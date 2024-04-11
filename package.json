@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "open": "cypress open",
+    "test": "cypress run --headed --browser chrome",
+    "headless": "yarn test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.6",
+    "cypress": "^13.7.2",
+    "mocha": "^10.4.0",
+    "typescript": "^5.4.5"
+  }
+}
